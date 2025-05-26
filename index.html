@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="theme-color" content="#d55328">
+	<meta name="description" content="PUUUNG Live Stream">
+	<link rel="icon" href="/assets/favicon.ico" type="image/x-icon">
+    <title>PUUUNG Live</title>
+	<link rel="stylesheet" href="/style.css">
+    <style>
+		body{
+			overflow-y: hidden;
+		}
+		#app{
+			width: 100%;
+			height: 100%;
+		}
+        #player {
+            width: 100%;
+            height: 100%;
+        }
+		div#player{
+			min-height: 300px;
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			justify-content: center;
+			cursor: pointer;
+			font-family: cursive;
+			gap: 20px;
+			padding: 10px;
+			text-align: center;
+		}
+		div#player img{
+			width: 100px;
+			max-width: 50%;
+		}
+		div#player p{
+			font-size: 36px;
+		}
+    </style>
+</head>
+<body>
+	<div id="app">
+		<div id="player">
+			<img src="/assets/touchscreen.svg" alt="">
+			<p>Please click here to start live stream</p>
+		</div>
+		<audio id="audioOverlay" loop autoplay>
+			<source src="/assets/come_to_me.mp3" type="audio/mpeg">
+			Your browser does not support the audio element.
+		</audio>
+	</div>
+
+    <script src="https://www.youtube.com/iframe_api"></script>
+    <script src="/script.js"></script>
+</body>
+</html>
