@@ -1146,7 +1146,7 @@ const videoData = [
     {
         "id": "yFd1fGFtW_k",
         "duration": 240,
-        "title": "Goodbye 3/3​ [ Love is in small things: S2 EP32 ]",
+        "title": "Goodbye 3/3 [ Love is in small things: S2 EP32 ]",
         "link": "https://www.youtube.com/watch?v=yFd1fGFtW_k"
     }, */
 	{
